@@ -109,7 +109,7 @@ def coding_alt(corpus: pd.Series, threshold: float = DEFAULT_THRESHOLD, overlap_
         numBatches(count_words(corpus[i]), threshold=threshold, overlap_min=overlap_min)
         for i in range(len(corpus))
     ]
-    return num_batches
+    return [int(nb) for nb in num_batches]
 
 def coding(code_alt: List[int]) -> List[int]:
     """
