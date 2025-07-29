@@ -90,23 +90,6 @@ for doc_preds in predictions:
 
 ---
 
-## 📂 Directory Suggestions
-
-You can organize the module in a directory structure like:
-
-```
-ner_chunk_stitch_pipeline/
-├── __init__.py
-├── core.py
-├── chunking.py
-├── stitching.py
-├── utils.py
-├── model.py
-├── README.md
-```
-
----
-
 ## 👤 Author Notes
 
 This was originally developed for RAND research and personal use.
